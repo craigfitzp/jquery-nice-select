@@ -137,6 +137,8 @@
 .no-csspointerevents .nice-select.open .list {
   display: block; }
 
+.nice-select input.current { border:0;background:transparent;width:100%; }
+
 code[class*="language-"],
 pre[class*="language-"] {
   border-radius: 2px;
