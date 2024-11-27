@@ -93,8 +93,9 @@
             $options.each(function(i) {
                 let $option = $(this);
                 let display = $option.data('display');
+                let style = $option.data('style');
 
-                $dropdown.find('ul').append($('<li></li>')
+                $dropdown.find('ul').append($('<li'+(style ? ' style="'+style+'"' : '')+'></li>')
                     .attr('data-value', $option.val())
                     .attr('data-search', $option.val().toLowerCase())
                     .attr('data-display', (display || null))
