@@ -2,7 +2,7 @@
     https://github.com/hernansartorio/jquery-nice-select
     Made by Hernán Sartorio
 
-    Fork by DTMG v1.1.2
+    Fork by DTMG v1.1.3
 */
 
 (function($) {
